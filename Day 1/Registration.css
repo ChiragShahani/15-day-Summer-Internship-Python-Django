@@ -1,0 +1,46 @@
+.form{
+	position: relative;
+	top: 30px;
+	margin: auto;
+	width: 70%;
+	background-color: #0fdbb9;
+	border-radius: 5px;
+	padding: 15px;
+	border-radius: 5%;
+}
+h1{
+	text-align: center;
+}
+.A{
+	width: 90%;
+	padding: 5px;
+	margin: 3px;
+	border-style: none;
+	align-items: center;
+}
+label{
+	margin: 5px;
+}
+#B{
+	width: 90%;
+	padding: 5px;
+	margin: 3px;
+	border-style: none;
+}
+.D{
+	display: block;
+	border-style: none;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 3px;
+	background-color: yellow;
+	align-items: center;
+	font-weight: bold;
+	border-radius: 5px;
+}
+#link{
+	margin-top: 40px;
+}
+p{
+	text-align: center;
+}
