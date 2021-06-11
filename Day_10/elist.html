@@ -1,0 +1,18 @@
+<h2>Employee</h2><br>
+
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last name</th>
+            <th>Gender</th>
+            <th>Salary</th>
+        </tr>
+        {% for c in object_list %}
+        <tr>
+            <td>{{c.first_name}}</td>
+            <td>{{c.last_name}}</td>
+            <td>{{c.gender}}</td>
+            <td>{{c.salary}}</td>
+        </tr>
+        {% endfor %}
+    </table>
